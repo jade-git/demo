@@ -12,7 +12,7 @@ public class HelloController {
     @RequestMapping("/data")
     @ResponseBody
     public String data() {
-        System.out.println("---------dataCCC----------");
-        return "hello wordCCC";
+        System.out.println("---------dataDDD----------");
+        return "hello wordDDD";
     }
 }
